@@ -9,7 +9,7 @@ public class ReadText2 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-		try (FileWriter out = new FileWriter("c:/temp/letterHW.txt", true)) {
+		try (FileWriter out = new FileWriter("c:/temp/letterHW2.txt", true)) {
 
 			out.write("Text file");
 

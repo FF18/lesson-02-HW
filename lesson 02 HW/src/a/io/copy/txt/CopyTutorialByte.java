@@ -21,6 +21,7 @@ public class CopyTutorialByte {
 		while((c = in.read()) != -1) {
 			out.write(c);
 		}
+		System.out.println("copy data from file to another file");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

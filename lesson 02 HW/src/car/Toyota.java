@@ -1,8 +1,8 @@
 package car;
 
-public class Honda extends Car {
+public class Toyota extends Car {
 
-	public Honda(int num, String color, int speed) {
+	public Toyota(int num, String color, int speed) {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -42,5 +42,6 @@ public class Honda extends Car {
 		// TODO Auto-generated method stub
 		super.setSpeed(speed);
 	}
+
 
 }
